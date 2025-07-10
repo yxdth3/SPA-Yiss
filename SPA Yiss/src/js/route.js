@@ -7,11 +7,11 @@ const route = (event) => {
 window.route = route;
 
 const routes = {
-    404: './src/views/404.html',
-    '/': './src/views/index.html',
-    '/create': './src/views/create.html',
-    '/edit': './src/views/edit.html',
-    '/delete': './src/views/delete.html'
+    '/' : './src/views/index.html',
+    '/register' : './src/views/register.html',
+    '/mainPage': './src/views/mainPage.html',
+    '/dashboard': './src/views/dashboard.html',
+    '/not-found': './src/views/not-found.html'
 };
 
 
